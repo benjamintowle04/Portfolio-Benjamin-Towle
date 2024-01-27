@@ -1,0 +1,71 @@
+body {
+  background-color: aliceblue;
+}
+
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 240px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: rgb(100, 113, 146); 
+    overflow-x: hidden; /* Disable horizontal scroll */
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-right: 3px solid black;
+    border-top: 1px solid black; 
+    border-bottom: 3px solid black; 
+  }
+
+  .sidenav a {
+    margin: 20px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: cursive;
+    color: white;
+    display: block;
+    text-align: center; 
+  }
+
+  .project-header, .project-description, h1 {
+    text-align: center;
+    font-family: cursive;
+    margin-left: 265px;
+  }
+
+  .project-header {
+    margin-top: 50px;
+  }
+
+  h1 {
+    font-weight: 800;
+    font-size: 50px;
+    margin-bottom: 40px;
+  }
+
+  .project-image {
+    width: fit-content;
+    height: 450px;
+    object-fit: contain;
+    border-radius: 20px;
+    display: block;
+    border: 2px solid black;
+    margin-bottom: 30px;
+  }
+
+  #schedulity-group {
+    margin-left: 555px;
+  }
+
+  #irobot {
+    margin-left: 704px;
+  }
+
+  #processor {
+    margin-left: 512px;
+  }
+
+  #python-game {
+    margin-left: 630px;
+  }
